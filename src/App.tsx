@@ -1,9 +1,14 @@
 import React from 'react'
+import Button from './components/Button'
 
 const App = () => {
   
   return (
-    <div>App</div>
+    <>
+    <div>
+      <Button variant='primary' text="button"/>
+    </div>
+    </>
   )
 }
 
