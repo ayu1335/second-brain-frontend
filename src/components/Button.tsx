@@ -13,7 +13,7 @@ export interface ButtonProps {
 
 const variantStyles = {
   primary: 'bg-[#5046E4] text-white hover:bg-blue-600',
-  secondary: 'bg-[#E0E7FF] text-[#3e38a7] hover:bg-gray-600',
+  secondary: 'bg-[#E0E7FF] text-[#3e38a7] hover:bg-gray-600 hover:text-white transition duration-200',
 };
 
 const sizeStyles = {
