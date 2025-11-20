@@ -6,7 +6,7 @@ interface CardProps {
 }
 const Card = (props: CardProps) => {
   return (
-    <div className="bg-white rounded-md border-2 border-gray-200 max-w-72 p-6">
+    <div className="bg-white rounded-md border-2 border-gray-200 max-w-72 p-6 ">
       <div className="flex justify-between">
         <div className="flex items-center text-md">
           <div className="text-gray-500 pr-2"><ShareIcon size="medium" /></div>
