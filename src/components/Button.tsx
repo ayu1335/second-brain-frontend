@@ -9,6 +9,7 @@ export interface ButtonProps {
   startIcon?: ReactElement;
   endIcon?: ReactElement;
   onClick?: () => void;
+  loading?:boolean
 }
 const variantStyles = {
   primary: 'bg-[#5046E4] text-white hover:bg-blue-600 hover:shadow-md shadow-blue-300 transition duration-300',
@@ -31,6 +32,7 @@ function Button(props: ButtonProps) {
       {props.startIcon && <span className="flex items-center justify-center w-5 h-5">{props.startIcon}</span>}
       <span>{props.text}</span>
       {props.endIcon && <span className="flex items-center justify-center w-5 h-5">{props.endIcon}</span>}
+      
     </button>
   );
 }
