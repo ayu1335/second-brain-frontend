@@ -1,4 +1,3 @@
-import React from 'react'
 import SideBarItem from './SideBarItem'
 import XIcon from '../icons/XIcon'
 import YtIcon from '../icons/YtIcon'
@@ -11,9 +10,9 @@ const Sidebar = () => {
         <div>
             <SideBarItem text="Tweets" icon={<XIcon/>} />
         <SideBarItem text="YouTube Videos" icon={<YtIcon/>} />
-        <SideBarItem text="Articles" icon={<XIcon/>} />
+        {/* <SideBarItem text="Articles" icon={<XIcon/>} />
         <SideBarItem text="Books" icon={<XIcon/>} />
-        <SideBarItem text="Podcasts" icon={<XIcon/>} />
+        <SideBarItem text="Podcasts" icon={<XIcon/>} /> */}
         </div>
     </div>
   )

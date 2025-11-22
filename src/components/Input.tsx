@@ -1,12 +1,14 @@
 interface CreateContextProps {
-    onChange?:()=>void,
+    ref: any;
     title?: string;
+    type?: string;
+    
     link?: string;
     placeholder?: string;
 }
 const Input = (props: CreateContextProps) => {
   return (
-    <input onChange={props.onChange} placeholder={props.placeholder} type="text" className="border border-gray-300 rounded-md p-2 " />
+    <input ref={props.ref} placeholder={props.placeholder} type={props.type} className="border border-gray-300 rounded-md p-2 " />
   )
 }   
 
